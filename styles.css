@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+body{
+    font-family: 'Dosis', sans-serif;
+    background: linear-gradient(180deg,#dfedf0,#e6dada);
+    letter-spacing: 0.2em;
+    font-size: 0.9em;
+}
+.container{
+    max-width: 400px;
+}
+h1{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.container form input{
+    box-shadow: 1px 1px 5px #dddddd;
+    border: none;
+    outline: none;
+}
+.container form input:hover,.container form input:focus{
+    box-shadow: inset 1px 1px 5px #aaaaaa;
+}
+.container form label{
+    font-weight: 600;
+}
+.icon{
+    position: relative;
+    top: -50px;
+    width: 100px;
+    margin-bottom: -50px;
+    border-radius: 50%;
+}
